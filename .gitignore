@@ -1,0 +1,7 @@
+.vscode/
+node_modules
+package-lock.json
+.DS_Store
+.node-versions
+nojiri-kopia_20221209_bk
+nojiri-kopia_honban
