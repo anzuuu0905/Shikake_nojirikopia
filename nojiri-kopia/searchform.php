@@ -40,6 +40,6 @@
  }
 </style>
 <form action="<?php echo home_url(); ?>">
- <input type="text" id="search" name="s" placeholder="ブログ内キーワードを検索" value="<?php the_search_query(); ?>">
+ <input type="text" id="search" name="s" placeholder="ブログ内キーワード検索" value="<?php the_search_query(); ?>">
  <input type="image" src="<?php bloginfo('template_url'); ?>/img/search_icon.png">
 </form>
