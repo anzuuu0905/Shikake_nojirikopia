@@ -27,4 +27,4 @@ DartSass対応WordPress構築環境を含むgulpファイル
 
 ## WordPress
 - WordPressThemeをアップロードすればテーマとして反映されます
-# CodeUps-WP-DartSass
+

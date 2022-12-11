@@ -75,7 +75,7 @@ const cssSass = () => {
         ]))
         .pipe(mmq()) // media query mapper
         .pipe(sourcemaps.write('./'))
-        .pipe(dest(destPath.css))
+        // .pipe(dest(destPath.css))
         .pipe(dest(destWpPath.css))
         .pipe(notify({
             message: 'Sassをコンパイルしました！',
@@ -111,7 +111,7 @@ const imgImagemin = () => {
                 }
             )
         )
-        .pipe(dest(destPath.img))
+        // .pipe(dest(destPath.img))
         .pipe(dest(destWpPath.img))
 }
 
@@ -128,14 +128,14 @@ const jsBabel = () => {
         .pipe(babel({
             presets: ['@babel/preset-env']
         }))
-        .pipe(dest(destPath.js))
+        // .pipe(dest(destPath.js))
         .pipe(uglify())
         .pipe(
             rename(
                 { extname: '.js' }
             )
         )
-        .pipe(dest(destPath.js))
+        // .pipe(dest(destPath.js))
         .pipe(dest(destWpPath.js))
 }
 
