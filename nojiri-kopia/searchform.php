@@ -35,7 +35,9 @@
    margin: 0 auto 30px;
   }
   .search_box form input:first-child{
-   width: 100%;
+    width: 100%;
+    text-align:center;
+    padding-left: 30px;
   }
  }
 </style>
