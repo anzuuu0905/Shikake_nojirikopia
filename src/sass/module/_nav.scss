@@ -1,0 +1,15 @@
+.nav__sns{
+  margin: 16px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  // @media (max-width: 810px){
+  //     margin: 16px;
+  //     justify-content: right;
+  //   }
+}
+
+.nav__sns a{
+  display: block;
+  width: 30px;
+}

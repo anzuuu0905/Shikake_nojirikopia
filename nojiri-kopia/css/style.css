@@ -336,7 +336,7 @@ footer .inner .row .left .info_txt + p {
 
 .blog__btn.btn {
 	margin: 0 auto;
-	width: 340px;
+	max-width: 340px;
 }
 
 .blog__btn.btn a {
@@ -371,6 +371,22 @@ footer .inner .row .left .info_txt + p {
 
 .slick-initialized .slick-slide {
 	height: auto;
+}
+
+.nav__sns {
+	gap: 16px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	margin: 16px;
+}
+
+.nav__sns a {
+	display: block;
+	width: 30px;
 }
 
 * {
@@ -3295,17 +3311,6 @@ footer .copy {
 #top #news .row > .ttl {
 	padding: 25px;
 	position: relative;
-}
-
-#top #news .row > .ttl::after {
-	background: url(../img/img_frog.svg) no-repeat center/contain;
-	bottom: 15px;
-	content: "";
-	display: block;
-	height: 187px;
-	left: 0;
-	position: absolute;
-	width: 98px;
 }
 
 #top #news .row > .ttl h2 {

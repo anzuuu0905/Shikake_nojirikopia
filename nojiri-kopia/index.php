@@ -210,13 +210,21 @@
      </ul>
      <p class="link"><a href="<?php bloginfo('url'); ?>/archives/category/news">＞ 一覧を見る</a></p>
     </div>
-    <div class="facebook">
+    <!-- <div class="facebook">
      <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpia.nojiriko&tabs=timeline&width=300&height=350&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=598537003578421"
                         width="300" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
                         allowfullscreen="true"
                         allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-    </div>
+    </div> -->
    </div>
+   <div class="nav__sns">
+        <a href="https://www.facebook.com/pia.nojiriko/" class="" target="_blank" rel="noreferrer noopener">
+        <img src="<?php echo get_template_directory_uri() ?>/img/facebook-icon.svg" alt="Facebook">
+        </a>
+        <a href="https://www.instagram.com/nojirikopia/" class="" target="_blank" rel="noreferrer noopener">
+        <img src="<?php echo get_template_directory_uri() ?>/img/instagram-icon.svg" alt="instagram">
+        </a>              
+    </div>
   </div>
  </section>
  <section id="event">

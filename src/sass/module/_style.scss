@@ -4524,16 +4524,16 @@ footer .copy {
   position: relative;
 }
 
-#top #news .row > .ttl::after {
-  content: "";
-  display: block;
-  width: 98px;
-  height: 187px;
-  background: url(../img/img_frog.svg) no-repeat center/contain;
-  position: absolute;
-  bottom: 15px;
-  left: 0;
-}
+// #top #news .row > .ttl::after {
+//   content: "";
+//   display: block;
+//   width: 98px;
+//   height: 187px;
+//   background: url(../img/img_frog.svg) no-repeat center/contain;
+//   position: absolute;
+//   bottom: 15px;
+//   left: 0;
+// }
 
 #top #news .row > .ttl h2 {
   text-align: center;
