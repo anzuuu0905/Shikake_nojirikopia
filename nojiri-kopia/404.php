@@ -5,7 +5,8 @@
  <title>【公式】のじりこぴあ／九州・宮崎県小林市・野尻町</title>
  <meta name="description" content="夏のプールが大人気！宮崎県小林市にある、子どもから大人まで楽しめる総合レジャースポット。園内にはゴーカートやコンビネーション遊具、湧水プールを備えるほか、パターゴルフ場や歴史民俗資料館も併設されています。古いを超えて、レトロな雰囲気をお楽しみ？ください。">
  <meta name="keywords" content="のじりこぴあ,のじり,宮崎,宮崎県,小林,小林市,野尻,野尻町,イベント,レジャー,レジャースポット,遊具,パターゴルフ,プール,売店,卓球">
- <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/img/favicon.ico">
+ <!-- <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/img/favicon.ico"> -->
+
  <link rel="preconnect" href="https://fonts.googleapis.com">
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP&display=swap" rel="stylesheet">
@@ -93,7 +94,7 @@
       'paged' => $paged,
      );
      $wp_query->query( $my_posts );
-     if( $wp_query->have_posts() ): while( $wp_query->have_posts() ) : $wp_query->the_post(); 
+     if( $wp_query->have_posts() ): while( $wp_query->have_posts() ) : $wp_query->the_post();
      ?>
      <li>
       <a href="<?php the_permalink(); ?>">
@@ -114,7 +115,7 @@
            }
           }
           ?></p>
-         <?php 
+         <?php
          $cat = get_the_category();
          $cat = $cat[0];
          ?>
@@ -180,7 +181,7 @@
       'paged' => $paged,
      );
      $wp_query->query( $my_posts );
-     if( $wp_query->have_posts() ): while( $wp_query->have_posts() ) : $wp_query->the_post(); 
+     if( $wp_query->have_posts() ): while( $wp_query->have_posts() ) : $wp_query->the_post();
      ?>
       <li>
        <a href="<?php the_permalink(); ?>">
@@ -214,7 +215,7 @@
       'paged' => $paged,
      );
      $wp_query->query( $my_posts );
-     if( $wp_query->have_posts() ): while( $wp_query->have_posts() ) : $wp_query->the_post(); 
+     if( $wp_query->have_posts() ): while( $wp_query->have_posts() ) : $wp_query->the_post();
      ?>
      <li>
       <a href="<?php the_permalink(); ?>">
@@ -284,7 +285,7 @@
  </section>
  <section id="enjoy" class="wave">
   <div class="inner">
-   <h2><img src="<?php echo get_template_directory_uri(); ?>/img/title_enjoy.png" alt="のじりこぴあ"></h2>
+   <h2><img src="<?php echo get_template_directory_uri(); ?>/img/title_enjoy.png" alt="公式のじりこぴあ"></h2>
    <div class="enjoy_block">
     <h3><img src="<?php echo get_template_directory_uri(); ?>/img/title_area.png" alt=""></h3>
     <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/img_3.png" alt=""></div>
@@ -389,7 +390,7 @@
 			autoplay: true,
 			fade: true,
 			speed: 2000,
-			autoplaySpeed: 3000, 
+			autoplaySpeed: 3000,
 			pauseOnHover: false,
 			pauseOnFocus: false,
             arrows: false,

@@ -4,7 +4,7 @@
    <div class="left">
     <p class="logo">
      <a href="<?php echo home_url(''); ?>">
-      <img src="<?php echo get_template_directory_uri(); ?>/img/logo_blue.svg" alt="のじりこぴあ">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/logo_blue.svg" alt="公式のじりこぴあ">
      </a>
     </p>
     <div class="info_txt">
@@ -53,7 +53,7 @@
 		<?php echo do_shortcode( '[xo_event_calendar holidays="regular-holiday" navigation="false" months="2"]' ); ?>
 	</section>
  </div>
-	
+
  <div class="bar">
   <div class="inner">
    <div class="row">
